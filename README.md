@@ -1,10 +1,10 @@
 # Modern Age Calculator
 
 Live Demo:
-[Your Vercel URL]
+https://age-calculator-eta-drab.vercel.app/
 
 GitHub Repository:
-[Your GitHub URL]
+https://github.com/sharmakanchan2908-ship-it/age-calculator
 
 Features:
 - Exact Age Calculation
