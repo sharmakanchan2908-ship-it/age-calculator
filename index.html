@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Age Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎂 Modern Age Calculator</h1>
+
+    <p class="subtitle">
+        calculate your exact age, birthday countdown and zodiac sign
+    </p>
+
+    <p id="todayDate"></p>
+
+    <div class="input-box">
+        <input type="date" id="dob">
+
+        <button onclick="calculateAge()">
+            Calculate Age
+        </button>
+    </div>
+
+    <div class="result" id="result">
+
+        <div class="card">
+            <h2 id="years">0</h2>
+            <p>Years</p>
+        </div>
+
+        <div class="card">
+            <h2 id="months">0</h2>
+            <p>Months</p>
+        </div>
+
+        <div class="card">
+            <h2 id="days">0</h2>
+            <p>Days</p>
+        </div>
+
+    </div>
+
+<div id="extraInfo"></div>
+<p id="birthdayMessage"></p>
+
+    <a href="https://digitalheroesco.com" target="_blank" class="hero-btn">
+        Built for Digital Heroes
+    </a>
+
+    <div class="footer">
+        <p><strong>Kanchan Sharma</strong></p>
+        <p>sharmakanchan2908@gmail.com</p>
+        <p> created for Digital Heroes internship trial task</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
